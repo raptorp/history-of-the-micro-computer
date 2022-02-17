@@ -3,8 +3,17 @@ header {
   grid-template-columns: 4fr 1fr;
 }
 
-header nav {
-  background-color: blanchedalmond;
+header {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* header nav {
+  background-color: #1a1a1a;
+} */
+
+header h1 {
+  color: #ffffff;
 }
 
 ul {

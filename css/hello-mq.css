@@ -1,0 +1,22 @@
+body {
+  background-color: pink;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (min-width: 300px) {
+  body {
+    background-color: yellow;
+    grid-template-columns: 1fr;
+  }
+  p {
+    color: brown;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    background-color: aquamarine;
+    margin: 10vw;
+  }
+}
