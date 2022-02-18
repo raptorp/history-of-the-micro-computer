@@ -1,24 +1,24 @@
 @font-face {
   font-family: lemonmilk;
-  src: url(../Fonts/lemon-milk/lemon-milk_bold.otf);
+  src: url(../font/lemon-milk/lemon-milk_bold.otf);
   font-weight: bolder;
 }
 
 @font-face {
   font-family: lemonmilk;
-  src: url(../Fonts/lemon-milk/lemon-milk_light.otf);
+  src: url(../font/lemon-milk/lemon-milk_light.otf);
   font-weight: lighter;
 }
 
 @font-face {
   font-family: lemonmilk;
-  src: url(../Fonts/lemon-milk/lemon-milk_medium.otf);
+  src: url(../font/lemon-milk/lemon-milk_medium.otf);
   font-weight: bold;
 }
 
 @font-face {
   font-family: lemonmilk;
-  src: url(../Fonts/lemon-milk/lemon-milk_regular.otf);
+  src: url(../font/lemon-milk/lemon-milk_regular.otf);
   font-weight: normal;
 }
 
