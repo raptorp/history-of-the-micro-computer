@@ -1,3 +1,16 @@
 body {
   margin: 0;
 }
+
+.banner {
+  padding: 60px;
+  text-align: center;
+  background: #3a3a31;
+  color: white;
+  font-size: 30px;
+}
+
+.landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
