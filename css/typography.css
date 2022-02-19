@@ -3,27 +3,11 @@
 /* JetBrains Mono */
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
-/* LemonMilk */
-/*@font-face {
-  font-family: lemonmilk;
-  src: url(../font/lemon-milk/lemon-milk_bold.otf);
-  font-weight: bolder;
+body {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 16px;
 }
-@font-face {
-  font-family: lemonmilk;
-  src: url(../font/lemon-milk/lemon-milk_light.otf);
-  font-weight: lighter;
-}
-@font-face {
-  font-family: lemonmilk;
-  src: url(../font/lemon-milk/lemon-milk_medium.otf);
-  font-weight: bold;
-}
-@font-face {
-  font-family: lemonmilk;
-  src: url(../font/lemon-milk/lemon-milk_regular.otf);
-  font-weight: normal;
-}*/
 
 header nav {
   font-family: "Inter";
@@ -42,4 +26,43 @@ header nav {
   font-weight: 100;
   font-size: 80px;
   margin: 0 0 30px 0;
+}
+
+h3 {
+  font-family: "JetBrains mono", monospace;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+blockquote {
+  font-family: "JetBrains mono", monospace;
+  font-weight: 100;
+  font-size: 22px;
+  max-width: 600px;
+  line-height: 1.4;
+  position: relative;
+  margin: 40px;
+  padding: 10px;
+}
+
+blockquote:before,
+blockquote:after {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  color: #f1efe6;
+  font-size: 6rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+blockquote:before {
+  content: "“";
+  left: -3rem;
+  top: -2rem;
+}
+
+blockquote:after {
+  content: "”";
+  right: -3rem;
+  bottom: -1rem;
 }
