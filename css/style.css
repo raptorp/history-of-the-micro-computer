@@ -13,11 +13,7 @@ body {
 .grid-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.grid-4-1 {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
+  width: 100%;
 }
 
 figure {
@@ -54,8 +50,16 @@ caption {
   padding-right: 10vw;
 }
 
-.intro-txt {
+.column-txt {
   width: 40vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.wide-txt {
+  width: 90vw;
   margin-top: auto;
   margin-bottom: auto;
   padding-left: 5vw;
