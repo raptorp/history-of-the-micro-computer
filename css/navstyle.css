@@ -30,7 +30,7 @@ nav a {
 
 nav a:hover {
   background: #ddd;
-  color: black;
+  color: #f2f2f2;
   transition-duration: 500ms;
 }
 

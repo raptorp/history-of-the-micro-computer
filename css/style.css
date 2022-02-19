@@ -5,28 +5,67 @@ body {
 .banner {
   padding: 60px;
   text-align: center;
-  background: #3a3a31;
-  color: white;
+  background: #1a1a1a;
+  color: #f2f2f2;
   font-size: 30px;
 }
 
-.landing {
+.grid-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+.grid-4-1 {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
 figure {
   margin: 0;
+  /* background-color: #e6e6e6; */
 }
-img {
+
+#landing-img {
   width: 50vw;
   padding: 0;
   margin: 0;
 }
 
+#altair-img {
+  width: 40vw;
+  margin: 2vw 0 2vw 0;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+#divider-img {
+  width: 60vw;
+  margin: 2vw 0 0 0;
+  padding: 0 20vw 0 20vw;
+}
+
+caption {
+}
 .landing-txt {
   width: 30vw;
   margin-top: auto;
   margin-bottom: auto;
   padding-left: 10vw;
   padding-right: 10vw;
+}
+
+.intro-txt {
+  width: 40vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.block-element {
+  background-color: #e6e6e6;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
