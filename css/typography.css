@@ -39,6 +39,10 @@ h3 {
   font-size: 28px;
 }
 
+q {
+  font-style: italic;
+}
+
 body main div section blockquote {
   font-family: "JetBrains mono", monospace;
   font-weight: 100;
