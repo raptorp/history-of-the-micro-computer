@@ -8,7 +8,7 @@ body {
   background: #1a1a1a;
   color: #f2f2f2;
   font-size: 30px;
-  width: 100vw;
+  width: auto;
 }
 
 .grid-1-1 {
@@ -28,21 +28,19 @@ figure {
   margin: 0;
 }
 
-#altair-img {
+.column-img {
   width: 46vw;
-  margin: 2vw 0 2vw 0;
+  margin: 2vw 0 0 0;
   padding-left: 2vw;
   padding-right: 2vw;
 }
 
 #divider-img {
-  width: 80vw;
+  width: 80%;
   margin: 2vw 0 0 0;
-  padding: 0 10vw 0 10vw;
+  padding: 0 10% 0 10%;
 }
 
-caption {
-}
 .landing-txt {
   width: 30vw;
   margin-top: auto;
@@ -55,16 +53,24 @@ caption {
   width: 40vw;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 5vw;
-  padding-right: 5vw;
+}
+
+.column-left {
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.column-right {
+  padding-left: 5%;
+  padding-right: 10%;
 }
 
 .wide-txt {
-  width: 90vw;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  width: 90%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .block-element {
