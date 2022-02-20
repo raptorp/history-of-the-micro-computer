@@ -34,7 +34,6 @@ nav a:hover {
   transition-duration: 500ms;
 }
 
-/* Main content */
 main {
-  margin-top: 78px; /* Add a top margin to avoid content overlay */
+  margin-top: 78px; /* to avoid content overlay */
 }
