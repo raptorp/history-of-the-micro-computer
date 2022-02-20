@@ -73,7 +73,7 @@ body main div section blockquote:before {
 
 body main div section blockquote:after {
   content: "”";
-  right: -3rem;
+  right: -5rem;
   bottom: -1rem;
 }
 
